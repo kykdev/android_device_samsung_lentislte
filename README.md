@@ -1,11 +1,11 @@
-## TWRP device tree for Galaxy S5 Plus (International)
+## TWRP device tree for Galaxy S5 LTE-A X3
 
-Add to `.repo/local_manifests/kccat6.xml`:
+Add to `.repo/local_manifests/lentislteskt.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/kccat6" name="android_device_samsung_kccat6" remote="TeamWin" revision="android-6.0" />
+	<project path="device/samsung/lentislteskt" name="kykdev/android_device_samsung_lentislteskt" remote="github" revision="android-6.0" />
 </manifest>
 ```
 
@@ -15,9 +15,9 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_kccat6-eng
+lunch omni_lentislteskt-eng
 make -j5 recoveryimage
 ```
 
-Kernel sources are available at: https://github.com/jcadduono/nethunter_kernel_kccat6/tree/twrp-6.0
+Kernel sources are available at: https://github.com/kykdev/android_kernel_samsung_lentislteskt/tree/twrp-6.0
 

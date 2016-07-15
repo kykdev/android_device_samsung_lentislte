@@ -1,4 +1,4 @@
-MKBOOTIMG := device/samsung/kccat6/mkbootimg
+MKBOOTIMG := device/samsung/lentislteskt/mkbootimg
 
 FLASH_IMAGE_TARGET ?= $(PRODUCT_OUT)/recovery.tar
 

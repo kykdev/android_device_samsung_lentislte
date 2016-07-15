@@ -1,2 +1,2 @@
-add_lunch_combo omni_kccat6-eng
-add_lunch_combo omni_kccat6-userdebug
+add_lunch_combo omni_lentislteskt-eng
+add_lunch_combo omni_lentislteskt-userdebug

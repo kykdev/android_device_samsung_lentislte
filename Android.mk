@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-ifneq ($(filter kccat6,$(TARGET_DEVICE)),)
+ifneq ($(filter lentislteskt,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
